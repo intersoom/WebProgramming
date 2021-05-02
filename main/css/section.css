@@ -1,0 +1,77 @@
+#section {
+    width: 100%;
+}
+
+.back {width: 100%;}
+.back:nth-child(2n+1) {background-color: #fdf5ef;}
+.back:nth-child(2n) {background-color: white;}
+.back:first-child {height: 370px; position: relative;}
+
+#bannerUp {
+    position: relative;
+    width: 960px; height: 370px;
+    padding: 0 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 10;
+
+}
+#bannerDown {
+    position: absolute;
+    top: 0;
+    width: 100%; height: 370px;
+    overflow: hidden;
+    z-index: 1;
+}
+.bannerImg {
+    position: absolute;
+    left: 50%; margin-left: -1002.5px;    
+}
+
+.sectionArea {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.back:nth-child(2n+1) > .sectionArea {background: #fdf5ef;}
+.back:nth-child(2n) > .sectionArea {background: white;}
+
+
+
+.articleTitle {
+    width: 960px; height: 120px;
+    position: relative;
+}
+.article {
+    width: 960px; overflow: hidden;
+}
+
+
+
+.title {
+    position: absolute;
+    top: 60px;
+}
+
+.fourContents > a {
+    float: left;
+    margin: 0 10px;
+}
+
+.fourContents > a:first-child {
+    margin: 0 10px 0 0;
+}
+.fourContents > a:last-child {
+    margin: 0 0 0 10px;
+}
+
+
+
+#events > a {
+    float: left;
+    margin-bottom: 10px;
+}
+#events > a:last-child {margin-bottom: 0;}
+
+#margin {width: 960px; height: 60px;}

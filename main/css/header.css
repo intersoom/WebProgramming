@@ -1,0 +1,30 @@
+#header {
+    width: 100%;
+    background: white;
+}
+#headerArea {
+    width: 960px; height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 40px;
+}
+#logo {
+    position: absolute;
+    left: 50%; top: 50%;
+    margin-left: -104.5px;
+    margin-top: -30px;
+}
+.userMenu {
+    overflow: hidden;
+    font-size: 9pt;
+    line-height: 30px;
+    float: right;
+}
+.userMenu > li {
+    list-style: none;
+    float: right; padding: 0 10px;
+}
+.userMenu > li:first-child {padding: 0 0 0 10px;}
+.userMenu > li:last-child {padding: 0 10px 0 0;}
+.userMenu a {text-decoration: none; color: black;}
