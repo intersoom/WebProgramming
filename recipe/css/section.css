@@ -72,6 +72,8 @@
 
 .menuWrap > ul{
     text-align: center;
+    overflow: auto;
+    margin-bottom: 30px;
 }
 
 .menuWrap > ul > li{
@@ -89,9 +91,11 @@
 
 .menuIntro{
     display: block;
+    width: 300px;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
+}
 
-    
+.menuIntro > h4, h5{
+    text-align: center;
 }
