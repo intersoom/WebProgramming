@@ -45,10 +45,10 @@
 
 
 /* 임의의 내용입니다. */
-.tmp {
+/*.tmp {
     height: 600px;
     background: turquoise;
-}
+}*/
 
 /* 카테고리 선택 영역입니다. */
 #selectBox {
@@ -66,8 +66,7 @@
 .select:nth-child(1) a {text-decoration: none; color: #333333;}
 
 .menuWrap{
-    width: 100%;
-    height: 100%;
+    width: 100%; height: 100%;
 }
 
 .menuWrap > ul{
@@ -96,6 +95,26 @@
     padding-bottom: 10px;
 }
 
-.menuIntro > h4, h5{
+.menuIntro > h3, h4, h5{
     text-align: center;
+    line-height: 25px;
+}
+
+.menuDes{
+    font-weight: 400;
+    color: grey;
+    font-size: 0.9em;
+}
+
+.menuName{
+    color: black;
+}
+
+.menuLev{
+    font-weight: 400;
+    color: rgb(167, 167, 167);
+}
+
+.menuIntro > h5 > i{
+    font-size: 0.8em;
 }

@@ -64,3 +64,58 @@
 
 .select:nth-child(2) {border-bottom: solid #f7cdaf 2px;}
 .select:nth-child(2) a {text-decoration: none; color: #333333;}
+
+
+.menuWrap{
+    width: 100%; height: 100%;
+}
+
+.menuWrap > ul{
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.menuWrap > ul > li{
+    display: inline-block;
+    width: 320px;
+    float: left;
+}
+.menuWrap > ul > li > a{
+    display: block;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.menuIntro{
+    display: block;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuIntro > h3, h4, h5{
+    text-align: center;
+    line-height: 25px;
+}
+
+.menuDes{
+    font-weight: 400;
+    color: grey;
+    font-size: 0.9em;
+}
+
+.menuName{
+    color: black;
+}
+
+.menuLev{
+    font-weight: 400;
+    color: rgb(167, 167, 167);
+}
+
+.menuIntro > h5 > i{
+    font-size: 0.8em;
+}
