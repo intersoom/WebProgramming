@@ -12,7 +12,7 @@
 
 /* 실제로 제목과 내용이 들어가는 구역입니다. padding은 창이 작아졌을 때 스크롤 해도 여백이 남을 수 있도록 해줍니다. */ 
 .sectionArea {
-    width: 960px; height: 900px;
+    width: 960px; height: 630px;
     margin: 0 auto;
     padding: 0 40px;
     overflow: hidden;
@@ -109,7 +109,12 @@
 }
 
 .ingredientTable .left, .ingredientTable .right{
-    width: 200px;
+    width: 400px;
+}
+
+.ingredientTableWrap > td > div{
+    height: 400px;
+    margin-left: 50px;
 }
 
 .stepContents{

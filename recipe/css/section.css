@@ -123,3 +123,23 @@
 .menuIntro > h5 > i{
     font-size: 0.8em;
 }
+
+/*hover 테스트용*/
+
+.wrapImg> img:hover{
+    height: 300px;
+    width: 300px;
+    transform: scale(1.1);
+    transition: transform 0.35s ease-in-out;
+}
+
+.wrapImg> img{
+    /*hover OFF*/
+    transition: transform 0.35s ease-in-out;
+}
+
+.wrapImg{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
