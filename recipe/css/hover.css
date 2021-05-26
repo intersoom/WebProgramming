@@ -1,0 +1,135 @@
+/*hover css*/
+
+/*추천 레시피 마우스 올리면 글씨 나오고 까매지는 효과*/
+
+.firstCol > img{
+    opacity: 1;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.secondCol > img{
+    opacity: 1;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.thirdCol > img{
+    opacity: 1;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.firstCol:hover > img{
+    opacity: 0.3;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.secondCol:hover > img{
+    opacity: 0.3;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.thirdCol:hover > img{
+    opacity: 0.3;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.firstCol, .secondCol, .thirdCol{
+    position: relative;
+}
+
+.textBox{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.6;
+    text-align: center;
+    width: 200px;
+}
+
+.textBox > h3{
+    font-size: 36px;
+    color: rgb(61, 61, 61);
+    transform: translateY(30px);
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.textBox > p{
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+    transform: translateY(30px);
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+.small > h3{
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    transform: translateY(30px);
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.small > p{
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+    transform: translateY(30px);
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+.firstCol:hover h3{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.45s;
+}
+
+.firstCol:hover p{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1s;
+}
+
+.secondCol:hover h3{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.45s;
+}
+
+.secondCol:hover p{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1s;
+}
+
+.thirdCol:hover h3{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.45s;
+}
+
+.thirdCol:hover p{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1s;
+}
+/*마우스 올리면 확대되는 효과*/
+
+.wrapImage> img:hover{
+    height: 300px;
+    width: 300px;
+    transform: scale(1.08);
+    transition: transform 0.35s ease-in-out;
+}
+
+.wrapImage> img{
+    /*hover OFF*/
+    transition: transform 0.35s ease-in-out;
+}
+
+.wrapImage{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}

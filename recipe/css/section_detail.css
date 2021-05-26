@@ -22,6 +22,18 @@
     height: 2200px;
 }
 
+.longlong{
+    height: 2700px;
+}
+
+.longlonglong{
+    height: 3200px;
+}
+
+.longlonglonglong{
+    height: 3700px;
+}
+
 /* 구역의 배경색을 입힙니다. 클래스 back이 100%이므로 창 넘어로 배경이 입히지 않게되는데 창 크기가 컨텐츠의 크기보다 작아질 때 색이 들어가지 않는걸 방지합니다. */
 .back:nth-child(2n+1) > .sectionArea {background: #fdf5ef;}
 .back:nth-child(2n) > .sectionArea {background: white;}
@@ -101,6 +113,7 @@
 .tableContents{
     color: rgb(61, 61, 61);
     font-size: 1.01em;
+    word-wrap: break-word;
 }
 
 .mainTable{
@@ -112,9 +125,16 @@
     width: 400px;
 }
 
-.ingredientTableWrap > td > div{
+.marginTop{
     height: 400px;
     margin-left: 50px;
+    margin-top: 20px;
+}
+
+.tableLong{
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .stepContents{

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/nav.css">
         <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/hover.css">
         <!-- 위 4개 CSS는 공통된 부분입니다. -->
 
         <!-- 아래 1개 CSS를 수정해서 사용하세요. -->
@@ -56,25 +57,41 @@
                         <div class="RecommendWrap">
                             <table width="960px">
                                     <tr>
-                                        <td rowspan="2">
+                                        <td rowspan="2" height="490px" width="500px">
                                             <a href="#" class="firstCol">
-                                                <img src="img/recommend/ABC주스.PNG" height="470px">
+                                                <div class="textBox">
+                                                    <h3>ABC 주스</h3>                                                    
+                                                    <p>대세 중 대세, 다이어트 필수템</p>
+                                                </div>
+                                                <img src="img/recommend/ABC주스.PNG" height="480px" width="470px">
                                             </a>
                                         </td>
-                                        <td>    
+                                        <td width="250px" height="245px">    
                                             <a href="#" class="secondCol">
-                                                <img src="img/recommend/토마토마리네이드.PNG" height="235px">
+                                                <div class="textBox small">
+                                                    <h3>토마토 마리네이드</h3>                                                    
+                                                    <p>간단하지만 맛있다!</p>
+                                                </div>
+                                                <img src="img/recommend/토마토마리네이드.PNG" height="235px" width="235px">
                                             </a>
                                         </td>
-                                        <td>
+                                        <td width="250px" height="245px">
                                             <a href="#" class="thirdCol">
-                                                <img src="img/recommend/연어아보카도덮밥.PNG" height="235px">
+                                                <div class="textBox small">
+                                                    <h3>연어 아보카도 덮밥</h3>                                                    
+                                                    <p>굳이 사먹을 필요 있나?</p>
+                                                </div>
+                                                <img src="img/recommend/연어아보카도덮밥.PNG" height="235px" width="235px">
                                             </a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <a href="#" class="firstCol">
+                                                <div class="textBox">
+                                                    <h3>깻잎 튀김</h3>                                                    
+                                                    <p>막걸리와 환상의 조합</p>
+                                                </div>
                                                 <img src="img/recommend/깻잎튀김.png" width="475px" height="235px">
                                             </a>
                                         </td>
@@ -107,8 +124,10 @@
                         <div class="menuWrap">
                             <ul class="fisrtGroup">
                                 <li class="menuContents">
-                                    <a href="#">
-                                        <img src="img/kr/볶음밥.png" width="300px" height="300px">
+                                    <a href="recipe_detail.html">
+                                        <div class="wrapImage">
+                                            <img src="img/kr/볶음밥.png" width="300px" height="300px">
+                                        </div>
                                         <div class="menuIntro">
                                             <h3 class="menuDes">바쁘다 바빠 현대 사회에 제격!</h3>
                                             <h4 class="menuName">간편 볶음밥</h4>
@@ -118,7 +137,9 @@
                                 </li>
                                 <li class="menuContents">
                                     <a href="#">
-                                        <img src="img/kr/연근조림.png" width="300px" height="300px">
+                                        <div class="wrapImage">
+                                            <img src="img/kr/연근조림.png" width="300px" height="300px">
+                                        </div>
                                         <div class="menuIntro">
                                             <h3 class="menuDes">다른 반찬 필요 없어요!</h3>
                                             <h4 class="menuName">밥도둑 연근 조림</h4>
@@ -128,10 +149,12 @@
                                 </li>
                                 <li class="menuContents">
                                     <a href="#">
-                                        <img src="img/kr/마늘쫑.png" width="300px" height="300px">
+                                        <div class="wrapImage">
+                                            <img src="img/kr/마늘쫑.png" width="300px" height="300px">
+                                        </div>
                                         <div class="menuIntro">
                                             <h3 class="menuDes">기본 반찬의 정석</h3>
-                                            <h4 class="menuName">맛있는 양념 마늘쫑</h4>
+                                            <h4 class="menuName">맛있는 양념 마늘종</h4>
                                             <h5 class="menuLev"><i class="fas fa-signal"></i> 난이도: 하</h5>
                                         </div>
                                     </a>
@@ -140,17 +163,21 @@
                             <ul class="secondGroup">
                                 <li class="menuContents">
                                     <a href="#">
-                                        <img src="img/kr/깻잎튀김.png" width="300px" height="300px">
+                                        <div class="wrapImage">
+                                            <img src="img/kr/깻잎튀김.png" width="300px" height="300px">
+                                        </div>
                                         <div class="menuIntro">
                                             <h3 class="menuDes">혼술하기에 딱인 안주</h3>
                                             <h4 class="menuName">간편 안주 깻잎 튀김</h4>
-                                            <h5 class="menuLev"><i class="fas fa-signal"></i> 난이도: 하</h5>
+                                            <h5 class="menuLev"><i class="fas fa-signal"></i> 난이도: 중</h5>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="menuContents">
                                     <a href="#">
-                                        <img src="img/kr/콩나물무침.png" width="300px" height="300px">
+                                        <div class="wrapImage">
+                                            <img src="img/kr/콩나물무침.png" width="300px" height="300px">
+                                        </div>
                                         <div class="menuIntro">
                                             <h3 class="menuDes">자취생 식탁을 더욱 풍성하게!</h3>
                                             <h4 class="menuName">자취생 필수 반찬 콩나물 무침</h4>
@@ -160,7 +187,9 @@
                                 </li>
                                 <li class="menuContents">
                                     <a href="#">
-                                        <img src="img/kr/청포묵무침.png" width="300px" height="300px">
+                                        <div class="wrapImage">
+                                            <img src="img/kr/청포묵무침.png" width="300px" height="300px">
+                                        </div>
                                         <div class="menuIntro">
                                             <h3 class="menuDes">기분내고 싶은 날에 간단하게</h3>
                                             <h4 class="menuName">간단하게 만드는 청포묵 무침</h4>
