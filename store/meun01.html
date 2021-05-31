@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/Best.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                    <div class="articleTitle">
+                        <a href="meun00.html" class="title">전체 상품 &nbsp;&nbsp;></a>
+                    </div>
+
+                    
+                    <div class="select-box">
+                        <select name="goUrl" onchange="window.open(this.value);">
+                            <option value="meun01.html">낮은가격</option>
+                            <option value="meun00.html">추천순</option>
+                            <option value="meun02.html">높은가격</option>
+                        </select>
+                    </div>
+
+                    <div class="article">
+                        <div class="meun">
+                            <div class="meun-select">
+                                <div class="meun-01">
+                                    <a href="index10.html"><img src="./store_Image/./img/닭가슴살.JPG" width="300px" height="300px"></a>
+                                    <p> 닭가슴살 함박스테이크 100g 3종(옵션선택) <br>2,300원</p>
+                                </div>
+
+                                <div class="meun-02">
+                                    <a href="index07.html"><img src="./store_Image/./img/일편떡심.png" width="300px" height="300px"></a>
+                                    <p> 일편떡심 떡볶이 <br>3,600원</p> 
+                                </div>
+
+                                <div class="meun-03">
+                                    <a href="index11.html"><img src="./store_Image/./img/떡갈비돈까스.JPG" width="300px" height="300px"></a>
+                                    <p> 육즙 떡갈비 / 갈비 돈까스 (옵션선택)<br>9,900원</p>
+                                </div>
+                           
+                            </div>        
+                        </div>
+
+                            <div class="meun">
+                                <div class="meun-select">
+                                        <div class="meun-01">
+                                            <a href="index03.html"><img src="./store_Image/./img/들기름막국수.JPG" width="300px" height="300px"></a>
+                                            <p>들기름막국수 286g(2인분)<br>9,900원</p>
+                                        </div>
+
+                                        <div class="meun-02">
+                                            <a href="index00.html"><img src="./store_Image/./img/크로와상.png" width="300px" height="300px"></a>
+                                        <p>이지잇 에어프라이어용 생지 (옵션선택)<br>13,000원</p>
+                                        </div>
+
+                                        <div class="meun-03">
+                                            <a href="index02.html"><img src="./store_Image/./img/치즈돈까스.png" width="300px" height="300px"></a>
+                                            <p> 이지잇 두툼/치즈 통통까스 3입/9입<br>13,500원</p>
+                                        </div>
+                                </div>        
+                            </div>
+                       
+                        <div class="meun">
+                            <div class="meun-select">
+                                    <div class="meun-01">
+                                        <a href="index12.html"><img src="./store_Image/./img/삼계탕.JPG" width="300px" height="300px"></a>
+                                        <p> 능이버섯 삼계탕 1kg x 2팩<br>14,500원</p>
+                                    </div>
+
+                                        <div class="meun-02">
+                                            <a href="index09.html"><img src="./store_Image/./img/쭈구미.png" width="300px" height="300px"></a>
+                                            <p> 하남 쭈꾸미 3팩(305g/500g)<br>19,900원</p>  
+                                        </div>
+
+                                        <div class="meun-03">
+                                            <a href="index08.html"><img src="./store_Image/./img/막창1.png" width="300px" height="300px"></a>
+                                            <p> 동성로 참나무 초벌 훈제막창 250g x 2팩<br>21,900원</p>
+                                         </div>
+                                </div>        
+                        </div> 
+                    </div>
+                </div>
+
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

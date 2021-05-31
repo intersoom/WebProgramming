@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/막창1.png" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>동성로 참나무 초벌 훈제막창 250g x 2팩</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>27,000</del></small><br>
+                                        <b>27,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>동성로 참나무 초벌 훈제막창 250g x 2팩</option>
+                                        </select>  
+                                          
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/막창01.JPG" width="500px"height="700px" alt="훈제막창">
+                                            <div class="Check point">
+                                                <hr>
+                                                <h1>ºCheck Pointº</h1>
+                                                <hr>
+                                                <br><p>참숯초벌구이막창 Check point</p><br>
+                                                <div class="con_Check_f">
+                                                <br><br><p>22년 전통</p></div>
+                                                <div class="con_Check_s">
+                                                <br><br><p>냄새 걱정 NO!</p></div>
+                                                <div class="con_Check_t">
+                                                <br><br><p>부드러운 육질</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/막창03.JPG" width="500px"height="300px" alt="훈제막창">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h3>22년 전통 대구의 맛을 전하는 대가 막창</h3> </div>
+                                                    <div class="right">
+                                                        <p>그동안 대구를 다녀간 손님들이 이구동성으로 하시던 말씀..
+                                                            "이제껏 먹어보지 못한 새로운 맛이네~!!"
+                                                            대구에서만 먹을 수 있던 특별한 맛을 이제 전국 어디서든
+                                                            즐길 수 있도록 준비했습니다. 참숯으로 구워 느끼하지 않고 고~~소한 맛을
+                                                            집에서 편하게 느껴보세요.</p></div>
+                                                </div>
+                                            <img src="./store_Image/img/막창07.JPG" width="500px"height="300px" alt="훈제막창">
+                                            <img src="./store_Image/img/막창05.JPG" width="230px"height="150px" alt="훈제막창">
+                                            <img src="./store_Image/img/막창06.JPG" width="260px"height="150px" alt="훈제막창">
+                                            <div class="content">
+                                                <div class="con">
+                                            <h1>농축액이 아닌 생키위 그대로!</h1>
+                                            <p>키위 농축액이 아닌 진짜 생키위를 그대로 갈아 넣어<br>
+                                               막창 특유의 누린내를 없애고 고기를 더욱 연하게 만듭니다.<br>
+                                               집에서 구워도 냄새없이, 대구에서 먹던 그 맛 그대로 즐기세요!</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/막창09.JPG" width="500px"height="250px" alt="훈제막창">
+                                            <hr>
+                                            <h1>맛있게 먹는 방법</h1>
+                                            <hr>
+                                            <div class="con_Check point_f">
+                                                <br><p><b>프라이팬 조리</b><br>
+                                               자연해동 시킨 제품을 달궈진 팬에 구워주세요.</p></div>
+                                            <div class="con_Check point_s">
+                                                <br><p><b>궁중팬 조리</b><br>
+                                                    해동시킨 막창을 궁중팬에 굽다 기름이 모이는 곳에 튀기듯이 구우면 크리스피하고 쫄깃한 식감을
+                                                    동시에 즐길 수 있습니다. </p></div>
+                                            <div class="con_Check point_t">
+                                                <br><p><b>에어프라이어 조리</b><br>
+                                                    해동한 제품을 180~185도씨에서 10분 조리 후 뒤집거나 잘라서 다시 10분 조리해주세요. </p></div>
+                                         
+                                        <img src="./store_Image/img/막창1.png" width="500px"height="450px" alt="훈제막창">
+                                            <div class="content">
+                                                <div class="con">
+                                                    <h1>초벌 후 중량을 맞춰 푸짐한 용량</h1>
+                                                    <p>대가 막창은 36시간의 숙성 과정 후 초벌해 나온 조리육으로<br>
+                                                       중량을 맞춰,구운 후 중량 그대로 드실 수 있습니다.</p><br></div>
+                                            </div>
+                                          
+                                            <img src="./store_Image/img/막창08.JPG" width="500px"height="300px" alt="훈제막창">
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 대가막창250g+막창소스100g<br>
+                                                       축산물 가공품의 유형: 양념육<small>(가열하여 섭취하는 냉동 축산물/비살균제품)</small><br>
+                                                       식품유형(막창소스): 소스류<br></p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                                </div>
+                                                <hr>
+                                                <div class="bottom">
+                                                    <div class="bot_left">
+                                                        <b>주의사항</b>
+                                                        <p> - 냉동제품이므로 냉장 및 실온보관 시 변질의 우려가 있어 냉동고에<br>
+                                                            &nbsp;&nbsp;보관하시기 바랍니다.<br>
+                                                            - 이미 냉동된 바 있으니 해동 후 재냉동하지 마시기 바랍니다.<br>
+                                                            - 전자레인지 조리 직후 용기 등 화상의 우려가 있으니 주의하시기 바 &nbsp;&nbsp;랍니다.<br>
+                                                            - 장시간 전자레인지 조리 시 과열로 인해 용기 변형될 수 있으니 주 &nbsp;&nbsp;의바랍니다.<br>
+                                                            - 조립방법에 따라 반드시 가열하여 드십시오.</p></div>
+                                                        <div class="bot_right">
+                                                            <p></p></div>
+                                                    </div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle">
+                     </div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/츄러스도그08.JPG" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>츄러스도그</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>12,900</del></small><br> 
+                                        <b>10,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>바질페스토 감바스 밀키트(2인분)</option>
+                                        </select>   
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/츄러스도그01.JPG" width="500px"height="750px" alt="츄러스도그">
+                                            <div class="con">
+                                                <hr>
+                                                <h4>CHECK POINT</h4>
+                                                <hr>
+                                                <p>- 츄러스와 소세지를 한번에!<br>
+                                                   - 데우기만하면 되는 초 간편식<br>
+                                                   - 바삭한 식감이 일품인 츄러스<br>
+                                                   - 해썹인증 시설에서 제조<br></p></div>
+                                            <img src="./store_Image/img/츄러스도그03.JPG" width="500px"height="950px" alt="츄러스도그">
+                                            <div class="con">
+                                                <br><hr>
+                                                <h4>HOW TO EAT</h4>
+                                                <hr>
+                                                <p><b>먹는것도 간편하게 먹자!</b></p>
+                                                <p> - 에어프라이기 180도 / 15분 <br> - 전자레인지 700W기준 / 2준</p></div>
+                                            <img src="./store_Image/img/츄러스도그06.JPG" width="450px"height="350px" alt="츄러스도그">
+                                            <br><h4>핫도그와 또다른</h4><h3>바삭달콤 간식!</h3><br> 
+                                            <img src="./store_Image/img/츄러스도그07.JPG" width="450px"height="350px" alt="츄러스도그">
+                                            <br><h4>달콤한 휴식이 필요한 순간,</h4><h3>츄러스도그!</h3><br> 
+                                            <img src="./store_Image/img/츄러스도그08.JPG" width="450px"height="350px" alt="츄러스도그">
+                                            <br><h4>어른,아이</h4><h3>모두가 좋아해요!</h3><br> 
+                                            <img src="./store_Image/img/츄러스도그09.JPG" width="450px"height="250px" alt="츄러스도그">
+                                              
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <br><b>제품정보</b>
+                                                    <p>제품명: 츄러스도그<br>
+                                                       품목보고번호: 20180385381-142<br>
+                                                       식품유형: 빵류(가열하여 섭취하는 냉동식품)<br>
+                                                       유통기한: 별도 표기일까지<br></p></div>
+                                                    <div class="bot_right">
+                                                    <p></p></div>
+                                            </div>
+                                                <hr>
+                                                <div class="bottom">
+                                                    <div class="bot_left_info">
+                                                        <b>영양정보&nbsp;&nbsp;<small>- 1일 영양성분 기준치에 대한 비율</small></b>
+                                                        <p>나트륨 : 540mg /27% , 포화지방 : 23g / 155% <br>
+                                                            탄수화물 : 30g /9% , 콜레스테롤 : 21mg / 7%<br>
+                                                            당류 : 5g /5% , 단백질 : 11g /19%<br>
+                                                            지방 : 130g /241%<br>
+                                                            총 내용량 425g / 100g당 1334kcal
+                                                        </p>
+                                                    </div>
+                                                    <div class="bot_right">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                   
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

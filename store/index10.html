@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/닭가슴살.JPG" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b> 닭가슴살 함박스테이크 100g 3종 (옵션선택)</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>2,500</del></small><br>
+                                        <b>2,300원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>닭가슴살 함박스테이크 - 오리지널</option>
+                                            <option>닭가슴살 함박스테이크 - 퐁듀치즈</option>
+                                            <option>닭가슴살 함박스테이크 - 고구마</option>
+                                        </select>  
+                                          
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+ 
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/스테이크01.JPG" width="500px"height="750px" alt="닭가슴살 함박스테이크">
+                                            <div class="Check point">
+                                                <br><hr>
+                                                <h1>ºCheck Pointº</h1>
+                                                <hr>
+                                                <br><p>참숯초벌구이막창 Check point</p><br>
+                                                <div class="con_Check_f">
+                                                <br><br><p>100% 국내산<br>닭가슴살</p></div>
+                                                <div class="con_Check_s">
+                                                <br><br><p>돈육의 맛처럼<br>촉촉한 식감</p></div>
+                                                <div class="con_Check_t">
+                                                <br><br><p>부담없는<br>칼로리</p></div>
+                                            </div>
+                                            <div class="Check point">
+                                                <br><p>안전하고 부담없이 즐겨먹자!</p><br>
+                                                <div class="con_Check_f">
+                                                <br><br><p>단백질<br>최대 16g</p></div>
+                                                <div class="con_Check_s">
+                                                <br><br><p>HACCP 인증으로<br>더욱 안정한<br> 제조과정</p></div>
+                                                <div class="con_Check_t">
+                                                <br><br><p>전자레인지<br>4분30~5분(700W)</p></div>
+                                                
+                                            </div>
+                                            <img src="./store_Image/img/스테이크04.JPG" width="500px"height="750px" alt="닭가슴살 함박스테이크">
+                                            <div class="Check point">
+                                                <br><hr>
+                                                <h1>안전한 제조공정과정</h1>
+                                                <hr>
+                                                <small>허닭 닭가슴살 함박스테이크는 안전하고 위생적인<br>제조시설에서 꼼꼼하게 만들었습니다!</small>
+                                                <img src="./store_Image/img/스테이크05.JPG" width="350px"height="190px" alt="닭가슴살 함박스테이크">
+                                            </div>
+                                            
+                                             <img src="./store_Image/img/스테이크01.png" width="500px"height="250px" alt="닭가슴살 함박스테이크">
+                                            <div class="content_recipe01">
+                                                <div class="con_recipe01">
+                                                <hr>
+                                                <h1>HOW TO COOK</h1>
+                                                <hr>
+                                                <p>허닭 닭가슴살 스테이크 이렇게 드세요!</p><br>
+                                                
+                                                <p><b>전자레인지 조리시</b><br>
+                                                    해동 후 전자레인지용 접시에 담고 랩을 씌워 <br>
+                                                    약4분30초~5분간 데이워드세요.<br>
+                                                    <b>프라이팬 조리 시</b><br>
+                                                    해동 후 프라이팬에 기름을 적당히 두르고 중불로<br>
+                                                    약4분30초~6분간 노릇하게 구운 후 드립시오.<br>
+                                                    <b>에어프라이어 조리 시</b><br>
+                                                    해동 후 에어프라이어를 175도씨로 예열한 후<br>
+                                                    약4~5분 30초간 뒤집어 가며 조리 후 드십시오.</p><br>
+                                                </div>
+                                            </div>
+
+
+                                            <img src="./store_Image/img/스테이크07.JPG" width="500px"height="750px" alt="닭가슴살 함박스테이크">
+                                            <img src="./store_Image/img/스테이크08.JPG" width="500px"height="850px" alt="닭가슴살 함박스테이크">
+                                            <img src="./store_Image/img/스테이크09.JPG" width="500px"height="250px" lt="닭가슴살 함박스테이크">
+
+                                            <img src="./store_Image/img/스테이크10.JPG" width="500px"height="750px" alt="닭가슴살 함박스테이크">
+                                            <img src="./store_Image/img/스테이크11.JPG" width="500px"height="850px" alt="닭가슴살 함박스테이크">
+                                            <img src="./store_Image/img/스테이크12.JPG" width="500px"height="250px" alt="닭가슴살 함박스테이크">
+                                            
+                                            <img src="./store_Image/img/스테이크13.JPG" width="500px"height="750px" alt="닭가슴살 함박스테이크">
+                                            <img src="./store_Image/img/스테이크14.JPG" width="500px"height="850px" alt="닭가슴살 함박스테이크">
+                                            <img src="./store_Image/img/스테이크15.JPG" width="500px"height="250px" alt="닭가슴살 함박스테이크">
+                                            
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 허닭 닭가슴살 함박스테이크<br>
+                                                       식품의 유형: 분쇄가공육제품<br>
+                                                       유통기한: 제조일로부터 냉동12개월/별도표시일까지<br>
+                                                       보관방법: -18도씨 이하 냉동보관<br></p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                                </div>
+                                                <div class="bottom">
+                                                    <div class="bot_left_info">
+                                                        <b>주의사항</b>
+                                                        <p> - 이미 냉동된 바 있으니 해동 후 재냉동시키지 마시길 바랍니다.<br>
+                                                            - 조리 시 뜨거운 기름이나 조리기구를 다루게 되므로<br>
+                                                            &nbsp;&nbsp;열에 의한 화상이나 상해를 입을 수 있으니 주의하십시오.<br>
+                                                           </p></div>
+                                                        <div class="bot_right">
+                                                            <p></p></div>
+                                                    </div>
+                                                </div>
+                                         </div>
+                                    </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

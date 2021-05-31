@@ -7,26 +7,23 @@
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/nav.css">
         <link rel="stylesheet" href="./css/footer.css">
-        <!-- 위 4개 CSS는 공통된 부분입니다. -->
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
 
-        <!-- 아래 1개 CSS를 수정해서 사용하세요. -->
         <link rel="stylesheet" href="./css/section.css">
-
-        <style>
-            * {margin: 0; padding: 0;} /* 모든 태그의 여백을 0으로 초기화 합니다. */
-            a > * {float: left;} /* a 태그의 overflow 속성을 사용하기 위해 자손에 float 속성을 줍니다. */
-            a {overflow: hidden; float: left;} /* a 태그의 자손의 크기만큼 a 태그 크기를 지정합니다. */
-        </style>
     </head>
+
     <body>
         <div id="header">
             <div id="headerArea">
                 <ul class="userMenu">
-                    <li><a href="#">회원가입</a></li>
+                    <li><a href="../main/create.html">회원가입</a></li>
                     <li>&#124;</li>
-                    <li><a href="#">로그인</a></li>
+                    <li><a href="../main/login.html">로그인</a></li>
                 </ul>
-                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+
+                <div class="headerTitle">
+                    <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+                </div>
             </div>
         </div>
         
@@ -38,67 +35,173 @@
                     <li><a href="../event/event.html">이벤트</a></li>
                 </ul>
                 <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다...");
+                        return false;
+                    };
+                </script>
             </div>
         </div>
         
-
-
-
-
-
-        
         <div id="section">
-
-
             <div class="back">
                 <div class="sectionArea">
-                    <div class="articleTitle">
-                        <a href="#" class="title"><img src="./store_source/title1.png" height="30px"></a>
-                    </div>
+                        <div class="articleTitle">
+                            <a href="Best00.html" class="title">인기 상품 &nbsp;&nbsp;></a> 
+                        </div>
                     <div class="article">
-                        <!-- 내용이 들어가는 부분입니다. 여기서부터 수정해주세요. -->
-                        <p class="tmp">임시로 넣은 내용입니다. 실제로 내용을 채우실 때, 되도록 상하좌우 여백이 없도록 꽉 채워주세요. 높이는 자유롭게 정하시면 됩니다.</p>
-                        <!-- 여기까지 -->
+                        <div class="BEST_section">
+                            <div class="best">
+                                <div class="best-01">
+                                    <a href="index00.html"><img src="./store_Image/./img/크로와상.png" width="300px" height="300px"></a>
+                                    <p> 이지잇 에어프라이어용 생지 (옵션선택)<br>13,000원</p>
+                                </div>
+                           
+                                <div class="best-02">
+                                    <a href="index02.html"><img src="./store_Image/./img/치즈돈까스.png" width="300px" height="300px"></a>
+                                    <p> 이지잇 두툼/치즈 통통까스 3입/9입<br>13,500원</p>
+                                </div>
+
+                                <div class="best-03">
+                                    <a href="index03.html"><img src="./store_Image/./img/들기름막국수.JPG" width="300px" height="300px"></a>
+                                    <p> 들기름막국수 286g(2인분)<br>9,900원</p>
+                                </div>
+
+                            </div>        
+                        </div>   
                     </div>
                     <div id="margin"></div>
+                </div>
+            </div>
+      
+            <div class="back">
+                <div class="sectionArea">
+                        <div class="articleTitle">
+                            <a href="new00.html" class="title">신상품 &nbsp;&nbsp;></a>
+                        </div>
+                    <div class="article">
+                        <section class="section">
+                            <input type="radio" name="slide" id="slide01" checked>
+                            <input type="radio" name="slide" id="slide02" >
+                            <input type="radio" name="slide" id="slide03" >
+                    
+                            <div class="slidewrap">
+                                <ul class="slidelist">
+                                    <!-- 슬라이드 영역 -->
+                                    <li class="slideitem">
+                                       <div class="textbox">
+                                            <h3> 바질페스토 감바스 밀키트 </h3>
+                                            <p> 그동안 먹었던 감바스와 차원이 다른 맛</p>
+                                        </div>
+                                            <a href="index04.html"><img src="./store_Image/img/감바스요리.png" width="900" height="350"></a>
+                                    </li>
+                    
+                                    <li class="slideitem">
+                                        <div class="textbox">
+                                            <h3> 츄러스도그 </h3>
+                                            <p> 돌돌돌 맛도 모양도 예쁜 츄러스도스 </p>
+                                        </div>
+                                            <a href="index05.html"><img src="./store_Image/img/CHURROS DOG.png"width="900" height="350"></a>
+                                    </li>
+                    
+                                    <li class="slideitem">
+                                        <div class="textbox">
+                                            <h3> 순살 파닭꼬치 </h3>
+                                            <p> 집에서 즐기는 홈이자카야 파닭꼬치 </p> 
+                                        </div>
+                                            <a href="index06.html"><img src="./store_Image/img/닭꼬치.png"width="900" height="350"></a> 
+                                    </li>
+                    
+                                    <!-- 좌,우 슬라이드 버튼 -->
+                                    <div class="slide-control">
+                                        <div>
+                                            <label for="slide03" class="left"></label>
+                                            <label for="slide02" class="right"></label>
+                                        </div>
+                                        <div>
+                                            <label for="slide01" class="left"></label>
+                                            <label for="slide03" class="right"></label>
+                                        </div>
+                                        <div>
+                                            <label for="slide02" class="left"></label>
+                                            <label for="slide01" class="right"></label>
+                                        </div>
+                                    </div>   
+                                </ul>
+
+                                <!-- 페이징 -->
+                                <ul class="slide-pagelist">
+                                    <li><label for="slide01"></label></li>
+                                    <li><label for="slide02"></label></li>
+                                    <li><label for="slide03"></label></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                        <div id="margin"></div>
                 </div>
             </div>
 
             <div class="back">
                 <div class="sectionArea">
                     <div class="articleTitle">
-                        <a href="#" class="title"><img src="./store_source/title2.png" height="30px"></a>
+                        <a href="meun00.html" class="title">전체 상품 &nbsp;&nbsp;></a>
                     </div>
                     <div class="article">
-                        <!-- 내용이 들어가는 부분입니다. 여기서부터 수정해주세요. -->
-                        <p class="tmp">임시로 넣은 내용입니다. 실제로 내용을 채우실 때, 되도록 상하좌우 여백이 없도록 꽉 채워주세요. 높이는 자유롭게 정하시면 됩니다.</p>
-                        <!-- 여기까지 -->
+                        <div class="meun">
+                            <!-- 첫번째 -->
+                            <div class="meun-fist">
+                                <div class="meun-01">
+                                    <a href="index07.html"><img src="./store_Image/./img/일편떡심.png" width="300px" height="300px"></a>
+                                    <p>일편떡심 떡볶이<br>3,600원</p>
+                                </div>
+                           
+                                <div class="meun-02">
+                                    <a href="index08.html"><img src="./store_Image/./img/막창1.png" width="300px" height="300px"></a>
+                                    <p> 동성로 참나무 초벌 훈제막창 250g x 2팩<br>21,900원</p> 
+                                </div>
+
+                                <div class="meun-03">
+                                    <a href="index09.html"><img src="./store_Image/./img/쭈구미.png" width="300px" height="300px"></a>
+                                    <p> 하남 쭈꾸미 3팩(305g/500g)<br>19,900원</p>  
+                                </div>
+
+                            </div>        
+                        </div>
+
+                        <div class="meun">
+                            <!-- 두번째 -->
+                            <div class="meun-fist">
+                                <div class="meun-01">
+                                    <a href="index10.html"><img src="./store_Image/./img/닭가슴살.JPG" width="300px" height="300px"></a>
+                                    <p>닭가슴살 함박스테이크 100g 3종 (옵션선택)<br>2,300원</p>
+                                </div>
+                           
+                                <div class="meun-02">
+                                    <a href="index11.html"><img src="./store_Image/./img/떡갈비돈까스.JPG" width="300px" height="300px"></a>
+                                    <p> 육즙 떡갈비 / 갈비 돈까스 (옵션선택)<br>9,900원</p>
+                                </div>
+
+                                <div class="meun-03">
+                                    <a href="index12.html"><img src="./store_Image/./img/삼계탕.JPG" width="300px" height="300px"></a>
+                                    <p> 능이버섯 삼계탕 1kg x 2팩<br>14,500원</p>
+                                </div>
+
+                            </div>        
+                        </div>         
                     </div>
-                    <div id="margin"></div>
+                        <div id="margin"></div>
                 </div>
             </div>
-
-            <div class="back">
-                <div class="sectionArea">
-                    <div class="articleTitle">
-                        <a href="#" class="title"><img src="./store_source/title3.png" height="30px"></a>
-                    </div>
-                    <div class="article">
-                        <!-- 내용이 들어가는 부분입니다. 여기서부터 수정해주세요. -->
-                        <p class="tmp">임시로 넣은 내용입니다. 실제로 내용을 채우실 때, 되도록 상하좌우 여백이 없도록 꽉 채워주세요. 높이는 자유롭게 정하시면 됩니다.</p>
-                        <!-- 여기까지 -->
-                    </div>
-                    <div id="margin"></div>
-                </div>
-            </div>
-
         </div>
 
         <div id="footer">
             <div id="footerArea">
                 <div class="textArea">
                     <img src="./store_source/logo_txt.png" width="140px">
-                    <p class="font_italic font_right">수정본</p>
+                    <p class="font_italic font_right">최종본</p>
                     <p>웹프로그래밍및실습(가)_8조</p>
                     <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
                 </div>

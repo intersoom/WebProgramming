@@ -7,25 +7,19 @@
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/nav.css">
         <link rel="stylesheet" href="./css/footer.css">
-        <!-- 위 4개 CSS는 공통된 부분입니다. -->
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
 
-        <!-- 아래 1개 CSS를 수정해서 사용하세요. -->
         <link rel="stylesheet" href="./css/section_detail.css">
         <script src="https://kit.fontawesome.com/4cc1ac40cd.js" crossorigin="anonymous"></script>
-
-        <style>
-            * {margin: 0; padding: 0;} /* 모든 태그의 여백을 0으로 초기화 합니다. */
-            a > * {float: left;} /* a 태그의 overflow 속성을 사용하기 위해 자손에 float 속성을 줍니다. */
-            a {overflow: hidden; float: left;} /* a 태그의 자손의 크기만큼 a 태그 크기를 지정합니다. */
-        </style>
     </head>
+
     <body>
         <div id="header">
             <div id="headerArea">
                 <ul class="userMenu">
-                    <li><a href="#">회원가입</a></li>
+                    <li><a href="../main/create.html">회원가입</a></li>
                     <li>&#124;</li>
-                    <li><a href="#">로그인</a></li>
+                    <li><a href="../main/login.html">로그인</a></li>
                 </ul>
                 <a href="../main/main.html" id="logo"><img src="./recipe_source/logo_tmp.png"  height="60px"></a>
             </div>
@@ -39,17 +33,21 @@
                     <li><a href="../event/event.html">이벤트</a></li>
                 </ul>
                 <a href="#" id="cart"><img src="./recipe_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
             </div>
         </div>
 
         <div id="section">
-
-
             <div class="back">
                 <div class="sectionArea">
                     <div id="margin"></div>
                     <div class="article">
-                        <!-- 내용이 들어가는 부분입니다. 여기서부터 수정해주세요. -->
                         <div class="mainWrap">
                             <div class="mainLeft">
                                 <img class="MainImg" src="img/wt/토마토마리네이드.PNG" width="400px" height="400px">
@@ -88,14 +86,12 @@
                                         </td>
                                         
                                     </tr>
-                                
-
-                                     
+                        
                                 </table>    
                             </div>   
                         </div>
-                        <!-- 여기까지 -->
                     </div>
+
                     <div id="margin"></div>
                 </div>
             </div>
@@ -256,7 +252,7 @@
             <div id="footerArea">
                 <div class="textArea">
                     <img src="./recipe_source/logo_txt.png" width="140px">
-                    <p class="font_italic font_right">수정본</p>
+                    <p class="font_italic font_right">최종본</p>
                     <p>웹프로그래밍및실습(가)_8조</p>
                     <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
                 </div>

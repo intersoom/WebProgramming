@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+       <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/떡갈비돈까스.JPG" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b> 육즙 떡갈비 / 갈비 돈까스 (옵션선택)</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>14,000</del></small><br>
+                                        <b>9,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>순한맛 떡갈비</option>
+                                            <option>매운맛 떡갈비</option>
+                                        </select>   
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2>
+                                   <p>※ 수제 갈비 돈가스는 현재 품절 상품입니다 ※</p><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+
+                                            <img src="./store_Image/img/떡갈비01.JPG" width="500px"height="650px" alt=" 육즙 떡갈비">
+                                            <img src="./store_Image/img/떡갈비02.JPG" width="500px"height="450px" alt=" 육즙 떡갈비">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>27년전통 육즙 떡갈비</h2> </div>
+                                                    <div class="right">
+                                                        <p>27년 전통 전주 맛집 떡갈비는 냉동된 재료가 아닌 
+                                                            국내산 재료만을 사용하여 매일 손수로 만들기 때문에 신선하면서도
+                                                            풍미가 살아있는 맛과 향을 느낄 수 있습니다.
+                                                            60시간동안 저온 숙성하여 깊은 맛을 더합니다.</p></div>
+                                                </div>
+                                        
+                                            <img src="./store_Image/img/떡갈비03.JPG" width="500px"height="450px" alt=" 육즙 떡갈비">
+                                            
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>순한맛<br> 수제 떡갈비</h2> </div>
+                                                    <div class="right">
+                                                        <p>기본으로 가장 많이 찾는 순한맛의 떡갈비는
+                                                            27년 노하우로 만들어 떡갈비의 육즙이 가득 살아있습니다.
+                                                            씹을 때마다 느껴지는 육즙과 식감의 순한맛 떡갈비를 즐겨보세요.</p></div>
+                                                </div>
+                
+                                            <img src="./store_Image/img/떡갈비04.JPG" width="500px"height="800px" alt=" 육즙 떡갈비">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>매운맛<br> 수제 떡갈비</h2> </div>
+                                                    <div class="right">
+                                                        <p>고추를 잘게 다져 넣어 씹을 때마다 은은하게 
+                                                            들어오는 갈비의 풍미와 매콤한 고추의 향이 살아있습니다.
+                                                            오래 먹어도 질리지 않는 매운맛 떡갈비! 매콤한 것을 좋아하시는 분들께 추천드립니다.</p></div>
+                                                </div>
+                                            
+                                            <img src="./store_Image/img/떡갈비05.JPG" width="500px"height="800px" alt=" 육즙 떡갈비">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>수제<br> 갈비 돈까스</h2> </div>
+                                                    <div class="right">
+                                                        <p>육즙이 가득하고 부드러우며 어른, 아이들 누구나 
+                                                            좋아하는 돈까스! 익힌 돈까스를 빵가루 입혀 만들었기 때문에
+                                                            겉에만 구워 드시며 되는 수제 갈비 돈까스입니다.</p></div>
+                                                </div>
+                                           <hr><br>
+                                            <div class="bottom">
+                                                <div class="bot_left">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 27년전통 전주맛집 떡갈비,갈비돈까스<br>
+                                                       유통기한: 떡갈비6개월/갈비돈까스9개월<br>
+                                                       제조일자: 상시제조<br>
+                                                       원산지: 국내산<br>
+                                                       용량: 순한맛 떡갈비(1장120g),매운맛 떡갈비(1장120g),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수제 갈비 돈까스(1장120g)</p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

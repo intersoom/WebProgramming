@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/삼계탕.JPG" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>능이버섯 삼계탕 1kg x 2팩</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>17,000</del></small><br>
+                                        <b>14,500원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>능이버섯 삼계탕 1kg x 2팩</option>
+                                        </select>  
+                                          
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+
+                                            <img src="./store_Image/img/삼계탕01.JPG" width="500px"height="650px" alt="능이버섯 삼계탕">
+                                            <img src="./store_Image/img/삼계탕02.JPG" width="500px"height="350px" alt="능이버섯 삼계탕">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>능이<br>삼계탕</h2> </div>
+                                                    <div class="right">
+                                                        <p>맛집이라고 소문난 OK능이 마을의 인기 메뉴인 능이 삼계탕을 
+                                                           누구나 쉽고 간편하게 먹을 수 있도록 만들었습니다.
+                                                           국내산 닭과 고급 능이버섯을 넣어 깊고 진한 국물맛이 일품인 
+                                                           최고급 보양식 능이 삼계탕을 이제 집에서 간편하게 즐겨보세요!</p></div>
+                                                </div>
+                                            <img src="./store_Image/img/삼계탕03.JPG" width="500px"height="350px" alt="능이버섯 삼계탕">
+                                            <img src="./store_Image/img/삼계탕03-1.JPG" width="500px"height="350px" alt="능이버섯 삼계탕">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>깊고 진한<br>국물 맛</h2> </div>
+                                                    <div class="right">
+                                                        <p>몸에 좋은 엄나무 갈근을 정성껏 끓여낸 육수에 버섯 중의
+                                                            으뜸인 능이버섯,인삼,녹두,호박씨 등 아낌없이 넣은 재료들로 깊고
+                                                            진한 국물 맛과 풍미를 자랑합니다.</p></div>
+                                                </div>
+                                            <img src="./store_Image/img/삼계탕04.JPG" width="500px"height="350px" alt="능이버섯 삼계탕">
+                                            <img src="./store_Image/img/삼계탕04-1.JPG" width="265px"height="180px" alt="능이버섯 삼계탕">
+                                            <img src="./store_Image/img/삼계탕04-2.JPG" width="230px"height="180px" alt="능이버섯 삼계탕">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>맛있고<br>든든한</h2> </div>
+                                                    <div class="right">
+                                                        <p>크고 튼실한 살코기는 쫄깃쫄깃한 식감을 내기에 살을 발라 먹는 재미가 쏠쏠하며,
+                                                            닭안에 찹쌀이 가득 채워져 있어 더욱 맛있고 든든하게 즐길 수 있습니다.
+                                                        </p></div>
+                                                </div>
+                                            
+                                            <img src="./store_Image/img/삼계탕05.JPG" width="500px"height="350px" alt="능이버섯 삼계탕">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>능이버섯<br>효능</h2> </div>
+                                                    <div class="right">
+                                                        <p>능이버섯은 기관지,천식,감기,산후병,암등에 효과가 좋으며 면역력 향상에도 도움이 됩니다.
+                                                            맛, 영양, 간편함까지 고루 갖춰진 능이 삼계탕으로 면역력을 높여보세요.
+                                                        </p></div>
+                                                </div>
+                                            <img src="./store_Image/img/삼계탕06.JPG" width="500px"height="450px" alt="능이버섯 삼계탕">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h2>맛있는<br>조리방법</h2> </div>
+                                                    <div class="right">
+                                                        <p>직접가열시<br>
+                                                            본 제품을 개봉하여 내용물을 냄비에 부은 후, 약 7-8분 정도 조리해주세요.<br>
+                                                            전자레인지 조리시<br>
+                                                            본 제품을 개봉하여 전자레인지 전용 용기에 담아, 약 7-8분 정도 조리해주세요.<br>
+
+                                                        </p></div>
+                                                </div>
+                                            <img src="./store_Image/img/삼계탕07.JPG" width="500px"height="250px" alt="능이버섯 삼계탕">
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 능이삼계탕<br>
+                                                       총내용량: 1kg<br>
+                                                       유통기한: 별도표시일까지<br>
+                                                       포장재질: 폴리에틸렌(내면)<br></p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                            </div>
+                                                <div class="bottom">
+                                                    <div class="bot_left_info">
+                                                        <b>주의사항</b>
+                                                        <p> - 비가열제품이오니 반드시 가열하여 드십시오.<br>
+                                                            - 이미 냉동된 제품이므로 해동후 재냉동<br>
+                                                            &nbsp;&nbsp;시키지 마십시오.용기 가장자리에 다치지 않도록 주의 바랍니다.<br>
+                                                           </p></div>
+                                                        <div class="bot_right">
+                                                            <p></p></div>
+                                                </div>
+                                        </div>
+                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

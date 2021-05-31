@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+       <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle">
+                     </div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/쭈구미.png" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>하남 쭈꾸미 350g/500g</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>10,000</del></small><br>
+                                        <b>6,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>매운맛</option>
+                                            <option>보통매운맛</option>
+                                        </select>  
+                                          
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+
+                                            <img src="./store_Image/img/쭈꾸미01.JPG" width="500px"height="450px" alt="하남 쭈꾸미">
+                                            <div class="Check point">
+                                                <br><p>십수년 노하우 맛집</p>
+                                                <hr>
+                                                <h1>하남 쭈꾸미</h1>
+                                                <hr>
+                                                <div class="con_Check_f">
+                                                <br><br><p>직접 선별한<br>최상급 쭈꾸미</p></div>
+                                                <div class="con_Check_s">
+                                                <br><br><p>자꾸 손이 가는<br>별미 양념장</p></div>
+                                                <div class="con_Check_t">
+                                                <br><br><p>십수년 노하우<br>하남의 맛집</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/쭈꾸미02.JPG" width="500px"height="350px" alt="하남 쭈꾸미">
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>100%HACCP인증쭈꾸미</h2>
+                                                <p>하남 핫 쭈꾸미는 해썹 인증 쭈꾸미만 사용하여 안심하고
+                                                    드실수 있으며, 쭈꾸미 특유의 쫄깃한 식감을 느낄 실 수 있습니다.
+                                                    또한 오직 쭈꾸미와 특제 양념장으로만 구성되어 풍부한 쭈꾸미 맛을
+                                                    느낄 수 있으며, 맛과 품질이 우수한 제품으로 높은 재구매율을 자랑합니다.</p></div>
+                                            </div>
+                                           
+                                            <img src="./store_Image/img/쭈꾸미03.JPG" width="500px"height="350px" alt="하남 쭈꾸미">
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>한 눈에 보이는 실한 쭈꾸미</h2>
+                                                <p>냉동포장 상태인 쭈꾸미를 물에 30분 정도 담궈서 자연 해동시킨 후 조리해주세요
+                                                    조리 전 해동된 쭈꾸미만 확인해봐도 큼지막한 크기와 푸짐한 양을 
+                                                    확인하실 수 있답니다.</p></div>
+                                            </div>
+                                           
+                                            <img src="./store_Image/img/쭈꾸미04.JPG" width="500px"height="450px" alt="하남 쭈꾸미">
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>중독성 있는 특제 양념</h2>
+                                                <p>직접 선별한 최상급 쭈꾸미와 수십년의 노하우 끝에 탄생한 양념은
+                                                    남녀노소 누구나 중독성 있게 즐길 수 있는 달달한 매운맛을 자랑합니다.
+                                                    취향에 따라 보통매운맛과 매운맛 중 선택이 가능하며,
+                                                    기호에 따라 버섯과 파 등을 추가해서 먹어도 맛있지만 실한 쭈꾸미 하나만으로도
+                                                    충분한 만족감을 선사해줍니다.</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/쭈꾸미05.JPG" width="500px"height="450px" alt="하남 쭈꾸미">
+                                            <div class="content_recipe">
+                                                <div class="con_recipe">
+                                                <h1>쭈꾸미볶음</h1>
+                                                <p>"그냥 먹어도 맛있는 하남쭈꾸미이지만,<br>
+                                                너에게 한상과 함께 더 맛있게 즐겨보세요!"<br>
+                                                난이도: ★☆☆ | 소요시간: 10분</p><br></div>
+                                                <img src="./store_Image/img/쭈꾸미06.JPG" width="500px"height="600px" alt="하남 쭈꾸미">
+                                                <div class="recipe">
+                                                    <p>재료: 하남쭈꾸미,양배추,파,양파,깻잎,깨<br>
+                                                        1)달군 팬에 약간의 기름을 두르고 하남쭈꾸미를 넣어주세요.<br>
+                                                        2~3)양배추와 양차,파를 함께 넣고 볶아주세요.<br>
+                                                        4)마지막에 깻잎을 넣어 볶아준 후, 먹기 전에 깨를 뿌려주세요.<br>
+                                                        5)상추 위에 깻잎,무쌈을 올린 후 쭈꾸미와 함께 즐겨주세요.<br>
+                                                        *취향에 따라 원하는 야채를 선택해주세요.<br>
+                                                        야채는 본 제품의 10% 정도 추가해주셔야 더 맛있게 즐기실 수 있습니다.</p><br></div>
+                                            </div>
+
+                                            <p><b>↓두가지 맛을 고를 수 있습니다.↓</b></p>
+                                            <img src="./store_Image/img/쭈꾸미07.JPG" width="500px"height="150px" alt="하남 쭈꾸미">
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 하남 핫 쭈꾸미<br>
+                                                       식품의 유형: 수산물가공품<small>(가열 후 섭취 냉동식품/냉동전 비가열제품)</small><br>
+                                                       유통기한: 제조일로부터 냉동12개월/별도표시일까지<br>
+                                                       보관방법: -18도씨 이하 냉동보관<br></p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                                </div>
+                                                <hr>
+                                                <div class="bottom">
+                                                    <div class="bot_left">
+                                                        <b>주의사항</b>
+                                                        <p> - 본 제품은 밀페 포장되어 있으므로 그대로 전자레인지에 넣을 경우 
+                                                            &nbsp;&nbsp;전자레인지 고장의 원인이 됩니다.<br>
+                                                            - 이미 냉동된 바 있으니 해동 후 재냉동하지 마시기 바랍니다.<br>
+                                                            - 본 제품은 냉동식품이므로 배송 즉시 냉동보관 하시기 바랍니다.<br>
+                                                            - 원재료 성분 중에 알레르기,천식,과민반응의 증상이 나타나는 소<br>&nbsp;&nbsp;비자는
+                                                            전문의사와 상담 후 섭취하시기 바랍니다.</p></div>
+                                                        <div class="bot_right">
+                                                            <p></p></div>
+                                                    </div> 
+                                            </div>
+                                         </div>
+                                    </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

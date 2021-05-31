@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/순살 꼬치.JPG" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>순살 파닭꼬치/삼겹새우롤</b><br>
+                                        <small>가격</small><br>
+                                        <b>7,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>순살 닭살꼬치1팩 -10꼬치(1팩당500g)</option>
+                                            <option>순살 파닭꼬치1팩 -10꼬치(1팩당500g)</option>
+                                            <option>삼겹 새우꼬치1팩 -10꼬치(1팩당500g)</option>
+                                            <option>순살 닭살꼬치1팩 -10꼬치(1팩당500g)</option>
+                                        </select>  
+                                        <select>
+                                            <option>추가옵션</option>
+                                            <option>매운마약고추소스 120g</option>
+                                            <option>데리야끼양념소스 120g</option>
+                                        </select>    
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/순살수제꼬치01.JPG" width="500px"height="350px" alt="순살수제꼬치">
+                                            <img src="./store_Image/img/순살수제꼬치02.JPG" width="500px"height="350px" alt="순살수제꼬치">
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>30년 전통 수제 꼬치</h2>
+                                                <p>30년 전통 대구 맛집 파닭꼬치를
+                                                    너에게,한상이 소개해 드립니다.
+                                                    순살 닭살꼬치, 순살 파닭꼬치,
+                                                    순살 파닭발꼬치 삼겹새우꼬치을 취향대로 즐겨보세요.</p></div>
+                                            </div>
+
+                                            <img src="./store_Image/img/순살수제꼬치03.JPG" width="500px"height="250px" alt="순살수제꼬치">                                                                                     
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>집에서 즐기는 홈이자카야 파닭꼬치</h2>
+                                                팩당 진공포장하여, 보관하기 쉬운 꼬치를 집에서 팬에 구워 간편하게 드셔보세요.
+                                                후라이팬에 구운 후 취향에 맞는 소스를 발라드시면 입에서 퍼지는 풍미가 일품입니다.
+                                                영양간식 또는 술안주로 즐겨보세요.</p></div>
+                                            </div>
+                                           
+                                            <br><p><b>↓4종 꼬치↓</b></p><br>
+                                            <img src="./store_Image/img/순살수제꼬치07.JPG" width="450px"height="250px" alt="순살수제꼬치">
+                                            <p><small>[순살 닭살꼬치]</small></p>
+                                            <img src="./store_Image/img/순살수제꼬치08.JPG" width="450px"height="250px" alt="순살수제꼬치">
+                                            <p><small>[순살 파닭꼬치]</small></p>
+                                            <img src="./store_Image/img/순살수제꼬치09.JPG" width="450px"height="250px" alt="순살수제꼬치">
+                                            <p><small>[순살 파닭발꼬치]</small></p>
+                                            <img src="./store_Image/img/순살수제꼬치10.JPG" width="450px"height="250px" alt="순살수제꼬치">
+                                            <p><small>[삼겹 새우꼬치]</small></p>
+                                            <img src="./store_Image/img/순살수제꼬치11.JPG" width="450px"height="250px" alt="순살수제꼬치">
+                                            
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 순살 꼬치(옵션선택)<br>
+                                                       제조일자: 상시제조<br>
+                                                       유통기한/보관방법: 냉동1년<br></p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                            </div>
+                                                <hr>
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>원산지</b>
+                                                    <p> 닭살꼬치 : 닭고기(국내산)<br>
+                                                        삼겹새우롤꼬치 : 삽겹살(독일산)/새우(베트남산)/<br>파프리카(국내산)/피망(국내산)<br>
+                                                        파닭꼬치 : 닥고기(국내산)/대파(국내산)<br>
+                                                        염통꼬치 : 닭염통(국내산)</p>
+                                                </div>
+                                                    <div class="bot_right">
+                                                        <p></p>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

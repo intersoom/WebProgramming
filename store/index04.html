@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/감바스밀키트.JPG" width="300px" height="300px">
+                                </div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>바질페스토 감바스 밀키트(2인분)</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>15,500</del></small><br> 
+                                        <b>11,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>바질페스토 감바스 밀키트(2인분)</option>
+                                        </select>   
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/바질페스토감바스01.JPG" width="500px"height="550px" alt="미니버터크로와상">
+                                                <div class="con">
+                                                    <h1>바쁜 일상 속 늘 하게되는 고민</h1>
+                                                    <p> 오늘 저녁은 뭘 먹지?<br>
+                                                        어떤 요리를 해 먹을까?<br>
+                                                        퇴근하고 마트 갈 시간이 될까?<br>
+                                                        오늘은 너무 힘든데 그냥 외식할까?</p></div>
+                                            <img src="./store_Image/img/바질페스토감바스02.JPG" width="500px"height="150px" alt="미니버터크로와상">
+                                            <div class="con">
+                                                <h1>번거로운 요리과정과 남은 재료들</h1>
+                                                <p> 힘들게 요리하려고 마음 먹어도<br>
+                                                    장보고,썰고,볶고,끓이고..<br>
+                                                    요리하는 과정이 너무 힘들죠?<br>
+                                                    이제 고민하지 마세요!</p></div>
+                                            <img src="./store_Image/img/바질페스토감바스04.JPG" width="500px"height="350px" alt="미니버터크로와상">
+                                            <div class="con">
+                                                <h1>바질페스토 감바스의 모든 재료가 우리집으로!</h1>
+                                                <p> 바질페스토 감바스를 요리 할 때<br>
+                                                    필요한 모든 재료를 필요한 양만 보내드려요.<br>
+                                                    이제 번거로운 과정을 모두 생략하고<br>
+                                                    요리하는 즐거움만 느껴보세요!</p></div>
+                                            <img src="./store_Image/img/바질페스토감바스07.JPG" width="500px"height="300px" alt="미니버터크로와상">
+                                            <div class="con">
+                                                <h1>Basil Pesto Gambas~</h1>
+                                                <p>감바스 알 아히요를 더욱 특별하게 즐기기 위해<br>
+                                                    바질페스토를 더해 향긋하고 고급스러운 풍미가 가득해요!<br><br>
+                                                    2인분 | 15분 | 난이도2 </p></div>
+                                                    <div class="content_Check point">
+                                                        <hr>
+                                                        <h1>간단한 조리방법</h1>
+                                                        <hr><br>
+                                                        <div class="con_Check point_f">
+                                                           <br><p>달군 팬에 바게트빵을 올리고 노릇하게 구워주세요. 
+                                                           전자레인지에 약 1분 정도 데우면 부드러운 식감의 빵으로 즐길 수 있습니다.</p></div>
+                                                        <div class="con_Check point_s">
+                                                           <br><p>달군 팬에 올리브오일과 마늘을 넣고 중불로 2분 정도 볶은 후 새우, 베트남고추, 새송이버섯, 브로콜리,로즈마리를
+                                                            넣고 4분 정도 더 볶아주세요.</p></div>
+                                                        <div class="con_Check point_t">
+                                                            <br><p>불을 끈 후 바질페스토를 넣어 골고루 섞어주세요. 바게트 빵과 곁들여 맛있게 즐겨주세요.</p></div>
+                                                    </div>
+                                            <img src="./store_Image/img/바질페스토감바스10.JPG" width="500px"height="350px" alt="미니버터크로와상">                                            
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="bot_left_info">
+                                                <b>제품정보</b>
+                                                <p> 제품명 : 바질페스토 감바스<br>
+                                                   식품유형 : 즉석조리식품<br>
+                                                   품목보고번호 : 2020363027142<br></p>
+                                            </div>
+                                            <div class="bot_right">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>보관 및 유통기한</b>
+                                                    <p> 내용량 : 457g<br>
+                                                        보관방법 : 냉장보관(0~10도씨)<br>
+                                                        유통기한 : 제품 별도 표기일까지</p>
+                                                </div>
+                                                <div class="bot_right">
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

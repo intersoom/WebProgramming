@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/일편떡심.png" width="300px" height="300px"></div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>일편떡심 떡볶이</b><br>
+                                        <small>가격</small><br>
+                                        <small><del>4,600</del></small><br>
+                                        <b>3,600원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>빨간떡</option>
+                                            <option>짜장떡</option>
+                                            <option>베베짜장(유아용)</option>
+                                            <option>베베짜장(아동용)</option>
+                                        </select>  
+                                          
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                             </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/./img/일편떡심.png" width="500px"height="400px" alt="일편떡심">
+                                            <div class="top">
+                                            <div class="left">
+                                                <h1>일편떡심 떡볶이</h1></div>
+                                                <div class="right">
+                                                    <p>학교 앞 추억의 떡볶이 맛을 그대로 재현 하고자
+                                                       쫀득쫀득함이 일품인 밀떡과 직접 빻은 고춧가루,
+                                                       다년간의 노하우로 만든 분말소스로 정성과 노력을 다해 정성과 노력을 다해 만들었습니다.
+                                                       이제 집에서도 편안히 그때 그 떡볶이의 맛을 즐겨보세요.</p></div>
+                                            </div>
+                                                 <img src="./store_Image/img/떡볶이02.JPG" width="500px"height="350px" alt="일편떡심">
+                                                 <div class="top">
+                                                    <div class="left">
+                                                        <h1>일편떡심 빨간떡</h1> </div>
+                                                        <div class="right">
+                                                            <p>매콤달콤한 국물과 쫄깃 탱글한 밀떡의 환상의 조화!
+                                                                먹으면 먹을수록 입맛을 당기는 맛입니다.
+                                                                취향에 따라 삶은 달걀, 만두 등을 곁들여 더욱 있게 즐겨보세요.</p></div>
+                                                </div>
+                                               
+                                            <img src="./store_Image/img/떡볶이03.JPG" width="500px"height="350px" alt="일편떡심">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h1>일편떡심 짜장떡</h1> </div>
+                                                    <div class="right">
+                                                        <p>매콤달콤함에 짜장소스를 더한 떡볶이로
+                                                            남녀노소 누구나 좋아하는 짜장떡볶이입니다.
+                                                            맵지 않아 아이들부터 어른들까지 즐기실 수 있으며,
+                                                            색다른 떡볶이를 드시고 싶은 날에 즐기기 좋은 떡볶이입니다.</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/떡볶이04.JPG" width="500px"height="350px" alt="일편떡심">
+                                            <img src="./store_Image/img/떡볶이05.JPG" width="500px"height="350px" alt="일편떡심">
+                                            <div class="top">
+                                                <div class="left">
+                                                    <h1>베베,키즈 짜장</h1> </div>
+                                                    <div class="right">
+                                                        <p>아이들을 위한 베베짜장과 키즈짜장맛!
+                                                            베베짜장은 3~6세 유아들이 편하게 즐길 수 있는 짜장이며,
+                                                            매운맛이 없는 진한 짜장입니다.
+                                                            키즈 짜장은 라면 순한맛 정도의 단계로 7세이상 아동들이 즐기기 좋은 짜장입니다.</p></div>
+                                            </div>
+                                              
+                                            <img src="./store_Image/img/떡볶이07.JPG" width="500px"height="500px" alt="일편떡심">
+                                            <img src="./store_Image/img/떡볶이08.JPG" width="500px"height="850px" alt="일편떡심">
+                                            <div class="bottom">
+                                                <div class="bot_left_info">
+                                                    <b>제품정보</b>
+                                                    <p>제품명: 일편떡심 떡볶이<br>
+                                                       내용량: 떡볶이 떡170g, 떡볶이소스50g, 오뎅20g<br>
+                                                       보관방법: 냉동보관<br>
+                                                       유통기한: 구매일로부터 냉동보관 6개월 </p></div>
+                                                    <div class="bot_right">
+                                                        <p></p></div>
+                                            </div>
+                                                <hr>
+                                                <div class="bottom">
+                                                    <div class="bot_left">
+                                                        <b>반품안내</b>
+                                                        <p> - 신선식품의 경우는 상품의 가치가 현저히 감소하므로 단순 변심에<br>&nbsp;&nbsp; 의한 반품 및 주문마감
+                                                            이후 취소는 제한될 수 있습니다.<br>
+                                                            - 잘못된 보관방법, 이미 섭취한 경우, 고객님의 부주의로 인한 오염,<br>&nbsp;&nbsp;파손,변질된 상품은
+                                                            반품, 환불이 제한될 수 있습니다. <br>
+                                                            - 임의로 상품을 폐기하시면 반품이 되지 않습니다.</p></div>
+                                                        <div class="bot_right">
+                                                            <p></p></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

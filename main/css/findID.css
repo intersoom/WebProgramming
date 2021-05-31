@@ -1,0 +1,138 @@
+
+    * {margin: 0; padding: 0;}
+    a > * {float: left;}
+    a {overflow: hidden; float: left;}
+    #header {
+        width: 100%;
+        background: white;
+    }
+    #headerArea {
+        width: 960px; height: 100px;
+        background-color: white;
+        margin: 0 auto;
+        position: relative;
+        padding: 0 40px;
+    }
+    #logo {
+        position: absolute;
+        left: 50%; top: 50%;
+        margin-left: -104.5px;
+        margin-top: -30px;
+    }
+    .userMenu {
+        overflow: hidden;
+        font-size: 9pt;
+        line-height: 30px;
+        float: right;
+    }
+    .userMenu > li {
+        list-style: none;
+        float: right; padding: 0 10px;
+    }
+    .userMenu > li:first-child {padding: 0 0 0 10px;}
+    .userMenu > li:last-child {padding: 0 10px 0 0;}
+    .userMenu a {text-decoration: none; color: black;}
+    #nav {
+        width: 100%;
+        background-color: #f7cdaf;
+    }
+    #navArea {
+        width: 960px; height: 40px;
+        position: relative;
+        background-color: #f7cdaf;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    .navItem {
+        font-size: 13pt;
+        line-height: 40px;
+        position: absolute; left: 50%;
+        margin-left: -187.5px;
+    }
+    .navItem > li {
+        list-style: none;
+        float: left; padding: 0 40px;
+    }
+    .navItem a {text-decoration: none; color: #333333;}
+    #cart {
+        float: right;
+        margin: 8.9px 0;
+    }
+    #section {
+        width: 100%;
+    }
+    .back {width: 100%;}
+    .back:nth-child(2n+1) {background-color: white;}
+    .back:nth-child(2n) {background-color: #fdf5ef;}
+    .sectionArea {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+    .back:nth-child(2n+1) > .sectionArea {background: white;}
+    .back:nth-child(2n) > .sectionArea {background: #fdf5ef;}
+    .articleTitle {
+        width: 480px; height: 120px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .title {
+        position: absolute;
+        top: 60px;
+    }
+    .article {
+        width: 480px; overflow: hidden;
+        margin: 0 auto;
+    }
+
+    #form {
+        margin: 0 auto;
+    }
+    #form tr {
+        width: 480px;
+    }
+    #form th {
+        width: 154px; height: 45px;
+        font-weight: normal;
+    }
+    #form th label {float: left;}
+    #form td {
+        width: 320px; height: 45px;
+    }
+    #form input[type="text"] {
+        width: 296px;
+        height: 41px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .tmargin {
+        height: 15px;
+    }
+    form input[type="submit"] {
+        border-style: none;
+        width: 480px;
+        height: 54px;
+        margin-top: 50px;
+        background-color: #f7cdaf;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    #margin {width: 960px; height: 60px;}
+    #footer {
+        width: 100%;
+        background: #fdf5ef;
+    }
+    #footerArea {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0 40px;
+        background: #fdf5ef;
+    }
+    .textArea {
+        width: 960px;
+        padding: 40px 0;
+        font-size: 11pt;
+    }
+    .textArea p {color: rgba(0, 0, 0, 0.5);}
+    .font_italic {font-style: italic;}
+    .font_right {text-align: right;}

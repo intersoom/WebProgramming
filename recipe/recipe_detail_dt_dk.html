@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+       <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/section_detail.css">
+        <script src="https://kit.fontawesome.com/4cc1ac40cd.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./recipe_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="./recipe.html">레시피</a></li>
+                    <li><a href="../store/store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./recipe_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+
+        <div id="section">
+
+
+            <div class="back">
+                <div class="sectionArea">
+                    <div id="margin"></div>
+                    <div class="article">
+                        <div class="mainWrap">
+                            <div class="mainLeft">
+                                <img class="MainImg" src="img/dt/닭가슴살김밥.PNG" width="400px" height="400px">
+                            </div>
+                            <div class="mainRight"> 
+                                <table class="mainTable">
+                                    <tr class="title">
+                                        <td height="80px">
+                                            <h1 class="menuName">닭가슴살 김밥</h1>
+                                            <h3 class="menuDes">맛있는 다이어트 메뉴 만들기</h3>
+                                        </td>
+                                    </tr>
+                                    <tr class="firstEx">
+                                        <td>
+                                            <table>
+                                                <tr height="40px">
+                                                    <td width="110px"><p class="tableTitle"> 난이도</p></td>
+                                                    <td><p class="menuLev tableContents">하</p></td>
+                                                </tr>
+                                                <tr height="40px">
+                                                    <td  width="110px"><p class="tableTitle"> 소요시간</p></td>
+                                                    <td><p class="menuTime tableContents"> 15분</p></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr class="secondEx" colspan="2">
+                                        <td>
+                                            <table>
+                                                <td width="110px" height="80px"><p class="tableTitle">설명</p></td>
+                                                <td width="410px"> <p class="menuEx tableContents"> 
+                                                    만들어둔 닭가슴살 장조림을 활용하여 만든 밀프렙 다이어트 레시피랍니다. 칼로리 걱정 없는, 맛있는 이색 김밥 즐길 수 있어 좋아요.
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>    
+                            </div>   
+                        </div>
+                    </div>
+
+                    <div id="margin"></div>
+                </div>
+            </div>
+
+            <div class="back">
+                <div class="sectionArea longlong">
+                    <div id="margin"></div>
+                    <table>
+                        <tr>
+                            <td colspan="2" height="70px"><h1 class="menuName">레시피</h1></td>
+                        </tr>
+                        <tr class="ingredientTableWrap">                                                            
+                            <td height="500px">
+                                <img src="img/detail/닭가슴살김밥재료.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="marginTop">
+                                    <table class="ingredientTable tableContents">
+                                        <tr height="40px">
+                                            <td class="left">
+                                                <h4 class="main">기본 재료</h4>
+                                            </td>  
+                                            <td class="right">
+                                                <p><font size="2px">1인분</font></p>
+                                            </td> 
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>김밥 김</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>1과 1/2장</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>현미밥</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>130g</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>소분한 닭가슴살 장조림</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>100g</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>빨간, 노란 파프리카</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>30g</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>청상추</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>3장</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>참기름</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>1/2큰술</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>소금</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>1꼬집</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>검은깨(또는 통깨)</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>약간</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>                                             
+                        </tr>
+                        <tr class="stepOne">
+                            <td height="500px">
+                                <img src="img/detail/dk_step1.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 1</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        청상추는 흐르는 물에 씻은 뒤 물기를 털어내주고, 빨강 노랑 파프리카는 채 썰어주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="stepTwo">
+                            <td height="500px">
+                                <img src="img/detail/dk_step2.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 2</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        큰 볼에 현미밥과 참기름, 소금, 검은깨를 넣고 골고루 섞어 양념해주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="stepThree">
+                            <td height="500px">
+                                <img src="img/detail/dk_step3.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 3</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        김발에 거친 면이 위로 올라오도록 김밥 김 1장을 펼치고, 양념한 밥을 얇게 펴 올린 뒤 김밥 김 1/2장을 덮어주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="stepFour">
+                            <td height="500px">
+                                <img src="img/detail/dk_step4.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 4</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        청상추와 닭가슴살 장조림, 파프리카를 올린 뒤 돌돌 말아주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="margin"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./recipe_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

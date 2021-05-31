@@ -1,0 +1,105 @@
+/* section 전체 영역입니다. */
+#section {
+    width: 100%;
+}
+
+
+/* section의 구역을 나눠서 배경 색을 입힙니다. */
+.back {width: 100%;}
+.back:nth-child(2n+1) {background-color: white;}
+.back:nth-child(2n) {background-color: #fdf5ef;}
+
+
+/* 실제로 제목과 내용이 들어가는 구역입니다. padding은 창이 작아졌을 때 스크롤 해도 여백이 남을 수 있도록 해줍니다. */ 
+.sectionArea {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+/* 구역의 배경색을 입힙니다. 클래스 back이 100%이므로 창 넘어로 배경이 입히지 않게되는데 창 크기가 컨텐츠의 크기보다 작아질 때 색이 들어가지 않는걸 방지합니다. */
+.back:nth-child(2n+1) > .sectionArea {background: white;}
+.back:nth-child(2n) > .sectionArea {background: #fdf5ef;}
+
+
+/* 제목 구역과 여백을 정합니다. */
+.articleTitle {
+    width: 960px; height: 120px;
+    position: relative;
+}
+
+
+.articleTitle a {
+    font-family: 'Jeju Myeongjo', serif;
+    font-size: 30px;
+    text-decoration: none; color: #40363e;
+}
+
+.title {
+    position: absolute;
+    top: 60px;
+}
+
+
+/* 실제로 내용이 들어가는 부분입니다. 자손에 float 속성을 적용하고 overflow: hidden; 이용하여 자동으로 크기를 지정해주거나 overflow 속성을 지우고 직접 높이를 설정해주셔도 됩니다. */
+.article {
+    width: 960px; overflow: hidden;
+}
+
+
+/* 한 영역에서 맨 아래 부분 여백입니다. */
+#margin {width: 960px; height: 60px;}
+
+
+/* 임의의 내용입니다. */
+/* .tmp {
+    height: 600px;
+    background: turquoise;
+} */
+.select-box{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: right;
+}
+.meun-select{
+    overflow: hidden;
+    margin: 10px auto;
+   
+}
+.meun-01{
+    float: left;
+    /* background: blue; */
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+    
+}
+.meun-01 p{
+    text-align: center;
+    line-height: 2em;
+}
+.meun-02{
+    /* background: blue; */
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+.meun-02 p{
+    text-align: center;
+    line-height: 2em;
+    
+}
+.meun-03{
+    /* background: blue; */
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+.meun-03 p{
+    text-align: center;
+    line-height: 2em;
+}

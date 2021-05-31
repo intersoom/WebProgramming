@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                        <div class="top_info">
+                            <div class="croissant">
+                                <div class="left_info">
+                                    <img src="./store_Image/./img/들기름막국수.JPG" width="300px" height="300px">
+                                </div>
+                                    <div class="right_info">
+                                        <small>상품명</small><br>
+                                        <b>들기름막국수 286g(2인분)</b><br>
+                                        <small>가격</small><br>
+                                        <b>9,900원</b><br>
+                                        <small>수량</small><br>
+                                        <select>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>  
+                                        <hr>
+                                        <select>
+                                            <option>옵션선택</option>
+                                            <option>들기름 막국수 286g(2인분)</option>
+                                        </select>   
+                                    </div>
+                                    <div class="bottom_info">
+                                        <button id="bth">장바구니</button>
+                                        <script>
+                                            var button = document.getElementById('bth');
+                                            bth.onclick = function () {
+                                                alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                return false;
+                                            };
+                                        </script>
+                                        <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                    </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/들기름막국수01.JPG" width="500px"height="750px" alt="들기름 막국수">
+                                            <div class="Check point">
+                                                <hr>
+                                                <h1>ºCheck Pointº</h1>
+                                                <hr>
+                                                <br><p>들기름 막국수 Check point</p><br>
+                                                <div class="con_Check_f">
+                                                <br><br><p>봉평 메일면과<br> 옛간 들기름의<br> 환상 조합</p></div>
+                                                <div class="con_Check_s">
+                                                <br><br><p>엄선된<br> 원재료</p></div>
+                                                <div class="con_Check_t">
+                                                <br><br><p>간편한<br> 조리방법</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/들기름막국수03.JPG" width="500px"height="350px" alt="들기름 막국수">
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>재료본연의 맛을 살린 완벽한 조화</h2>
+                                                <p> ①쫄깃함을 위한 최적의 메밀면 메밀함량 30%로 제조하였습니다.
+                                                    ②100%국내산 통들깨로 만들어 들기름의 고소한 풍미가 일품입니다.
+                                                    ③자극적이지 않고 달큰한 고메발효간장으로 메일면의
+                                                    감칠맛을 더욱 살려줍니다.</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/들기름막국수04.JPG" width="500px"height="350px" alt="들기름 막국수">
+                                            <div class="content">
+                                                <div class="con">
+                                                <h2>엄선한 100% 국내산 원재료</h2>
+                                                <p> - 메밀의 고장 평창군 봉평면의 해발700m 고랭지에서<br>
+                                                    재배한 메밀만을 고집합니다.<br>
+                                                    - 60년 전통"옛간"의 찜누름 방식 들기름을 사용했습니다.<br>
+                                                    - 대한민국 대표 김브랜드 40년 전통의 지도표 성경김<br>
+                                                      김가루를 사용했습니다.</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/들기름막국수05.JPG" width="500px"height="650px" alt="들기름 막국수">
+                                            <div class="bottom">
+                                                <div class="bot_left">
+                                                    <div class="con">
+                                                        <h2>간단하게 완성되는 한끼 식사</h2>
+                                                        <p> 1. 끓는 물에 메밀면을 3분30초간 삶아주세요.<br>
+                                                            2. 면을 찬물에 헹구고 물기를 최대한 빼줍니다.<br>
+                                                            3. 그릇에 면을 담고 고메간장,들기름,김가루를 뿌려 잘 비벼주세요.<br>
+                                                             - 간장,김가루는 기호에 맞게 조절하여 넣어주세요.<br>
+                                                             - 조리기구 및 조리방법에 따라 조리시간이 달라질 수 있습니다.<br>
+                                                            </p></div>
+                                                    <div class="bot_right">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="./store_Image/img/들기름막국수06.JPG" width="500px"height="350px" alt="들기름 막국수">
+                                        </div>
+
+                                        <div class="bottom">
+                                            <div class="bot_left_info">
+                                                <b>제품정보</b>
+                                                <p>제품명: 들기름 막국수<br>
+                                                    유통기한: 별도 표기일까지<br>
+                                                    내용량: 면200g, 고메간장소스2팩, 들기름2팩, 김가루20g<br></p>
+                                            </div>
+                                            <div class="bot_right">
+                                                <p></p>
+                                            </div>
+                                            <hr>
+                                            <div class="bottom">
+                                                <div class="bot_left">
+                                                    <b>반품안내</b>
+                                                    <p> - 신선식품의 경우는 상품의 가치가 현저히 감소하므로<br>&nbsp;&nbsp;단순 변심에 의한 반품 및 주문마감
+                                                        이후 취소는 제한될 수 있습니다.<br>
+                                                        - 잘못된 보관방법, 이미 섭취한 경우, 고객님의 부주의로 인한 <br>&nbsp;&nbsp;오염,파손,변질된 상품은
+                                                        반품, 환불이 제한될 수 있습니다. <br>
+                                                        - 임의로 상품을 폐기하시면 반품이 되지 않습니다.</p></div>
+                                                    <div class="bot_right">
+                                                        <p></p>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    
+                    <div id="margin"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

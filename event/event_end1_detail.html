@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/section_end.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./event_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="../store/store.html">스토어</a></li>
+                    <li><a href="./event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./event_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다...");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+ 
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                    <div class="articleTitle">
+                        <a href="event_end.html" class="title">이벤트</a>
+                        <p class="title_next">이벤트&nbsp;>&nbsp;종료&nbsp;>&nbsp;여러분의 사연을 소개해주세요!</p>
+                    </div>
+                    
+
+                    <div class="article">
+                        <div id="selectBox">
+                            <div class="select"><a href="./event.html">진행중</a></div>
+                            <div class="select"><a href="./event_end.html">종료</a></div>
+                        </div>
+                        <div id="eventList">
+                            <!-- 이벤트 종료 상세 페이지-->
+                           <img src="./event_source/event_end1_detail.jpg" width="960px">
+                        </div>
+                    </div>
+
+                    <div id="margin"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./event_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

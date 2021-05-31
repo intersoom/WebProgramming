@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/outline.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./store_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="../recipe/recipe.html">레시피</a></li>
+                    <li><a href="./store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./store_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+        
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                     <div class="articleTitle"></div> 
+                    <div class="article">
+                                <div class="top_info">
+                                    <div class="croissant">
+                                        <div class="left_info">
+                                            <img src="./store_Image/./img/치즈돈까스.png" width="300px" height="300px">
+                                        </div>
+                                            <div class="right_info">
+                                                <small>상품명</small><br>
+                                                <b>이지잇 두툼/치즈 통통까스 3입/9입</b><br>
+                                                <small>가격</small><br>
+                                                <small><del>21,000</del></small><br>
+                                                <b>13,500원</b><br>
+                                                <small>수량</small><br>
+                                                <select>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>  
+                                                <hr>
+                                                <select>
+                                                    <option>옵션 선택</option>
+                                                    <option>이지잇 치즈 통통까스3입</option>
+                                                    <option>이지잇 두툼 통통까스3입</option>
+                                                    <option>이지잇 통통까스9입(등심6입, 치즈3입)</option>
+                                                    <option>이지잇 통통까스9입(등심4입, 치즈5입)</option>
+                                                </select>   
+                                            </div>
+                                            <div class="bottom_info">
+                                                <button id="bth">장바구니</button>
+                                                <script>
+                                                    var button = document.getElementById('bth');
+                                                    bth.onclick = function () {
+                                                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                                                        return false;
+                                                    };
+                                                </script>
+                                                <button class="bth" onclick="location.href='../main/login.html'">바로구매</button>  
+                                            </div>
+                                    </div> 
+                                </div>
+                        
+                        <div class="main">
+                            <div class="main-box">
+                                <div class="page-title">
+                                    <h2>상품정보</h2><br>
+                                </div>
+
+                                <div class="main-section poster-wrap">
+                                    <div class="pos-sq-on poster-img" id="pos-sq-on">
+                                        <div class="poster">
+                                            <img src="./store_Image/img/두툼통통까스01.JPG" width="500px"height="750px" alt="통통까스">
+                                            <div class="content_Check point">
+                                                <hr>
+                                                <h1>º통통 포인트º</h1>
+                                                <hr>
+                                                <p>통통까스 Check point</p><br>
+                                                <div class="con_Check point_f">
+                                                <img src="./store_Image/img/두툼통통까스02-01.JPG" width="150px"height="150px" alt="통통까스">
+                                                <b>① 재료</b><p>100% 청정 지역<br>제주산 등심</p></div>
+                                                <div class="con_Check point_s">
+                                                <img src="./store_Image/img/두툼통통까스02-02.JPG" width="150px"height="150px" alt="통통까스">
+                                                <b>② 조리법</b><p>에어프라이어로<br>바삭하게!</p></div>
+                                                <div class="con_Check point_t">
+                                                <img src="./store_Image/img/두툼통통까스02-03.JPG" width="150px"height="150px" alt="통통까스">
+                                                <b>③ 소스</b><p>특별 개발한<br>할라피뇨 소스40g</p></div>
+                                            </div>
+                                            <img src="./store_Image/img/두툼통통까스03.JPG" width="500px"height="750px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스04.JPG" width="500px"height="750px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스05.JPG" width="500px"height="750px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스06.JPG" width="500px"height="650px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스07.JPG" width="500px"height="650px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스08.JPG" width="500px"height="650px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스09.JPG" width="500px"height="750px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스10.JPG" width="500px"height="400px" alt="통통까스">
+                                            <img src="./store_Image/img/두툼통통까스11.JPG" width="500px"height="450px" alt="통통까스">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div> 
+                        
+                    </div>
+                </div>
+
+                    <div id="margin"></div>   
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./store_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>너에게, 한상</title>
+        <link rel="stylesheet" href="./css/FontSetting.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <!-- 위 4개 CSS는 page 공통된 부분입니다. -->
+
+        <link rel="stylesheet" href="./css/section_detail.css">
+        <script src="https://kit.fontawesome.com/4cc1ac40cd.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="headerArea">
+                <ul class="userMenu">
+                    <li><a href="../main/create.html">회원가입</a></li>
+                    <li>&#124;</li>
+                    <li><a href="../main/login.html">로그인</a></li>
+                </ul>
+                <a href="../main/main.html" id="logo"><img src="./recipe_source/logo_tmp.png"  height="60px"></a>
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div id="navArea">
+                <ul class="navItem">
+                    <li><a href="./recipe.html">레시피</a></li>
+                    <li><a href="../store/store.html">스토어</a></li>
+                    <li><a href="../event/event.html">이벤트</a></li>
+                </ul>
+                <a href="#" id="cart"><img src="./recipe_source/cartIcon.png" width="24px"></a>
+                <script>
+                    var button = document.getElementById('cart');
+                    cart.onclick = function () {
+                        alert("준비중입니다. 불편을 드려 죄송합니다.");
+                        return false;
+                    };
+                </script>
+            </div>
+        </div>
+
+        <div id="section">
+            <div class="back">
+                <div class="sectionArea">
+                    <div id="margin"></div>
+                    <div class="article">
+                        <div class="mainWrap">
+                            <div class="mainLeft">
+                                <img class="MainImg" src="img/sp/샐러드.PNG" width="400px" height="400px">
+                            </div>
+                            <div class="mainRight"> 
+                                <table class="mainTable">
+                                    <tr class="title">
+                                        <td height="80px">
+                                            <h1 class="menuName">양배추 샐러드</h1>
+                                            <h3 class="menuDes">재료 넣고 섞기만 하면 완성!</h3>
+                                        </td>
+                                    </tr>
+                                    <tr class="firstEx">
+                                        <td>
+                                            <table>
+                                                <tr height="40px">
+                                                    <td width="110px"><p class="tableTitle"> 난이도</p></td>
+                                                    <td><p class="menuLev tableContents">하</p></td>
+                                                </tr>
+                                                <tr height="40px">
+                                                    <td  width="110px"><p class="tableTitle"> 소요시간</p></td>
+                                                    <td><p class="menuTime tableContents"> 10분</p></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr class="secondEx" colspan="2">
+                                        <td>
+                                            <table>
+                                                <td width="110px" height="80px"><p class="tableTitle">설명</p></td>
+                                                <td width="410px"> <p class="menuEx tableContents"> 
+                                                    채소를 통해 몸과 마음을 더욱더 이롭게, 나아가 자연과 함께 살아가는 건강한 삶을 위해 하루 한 끼 채소로 식탁을 채워보려 해요. 제철 식재료를 통해 다채로운 계절의 맛을 매주 소개해 드릴게요
+                                                    <br><br>
+                                                    위궤양에 좋은 비타민을 함유한 양배추! 손쉽게 구할 수 있고 저렴한 가격에 높은 영양가까지 있는 만능 채소예요. 아삭한 식감을 살린 양배추 샐러드로 양배추를 더욱더 색다르게 즐길 수 있어요. 다이어트에도 좋고 육류와 함께, 빵과 함께 즐겨도 좋답니다!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>    
+                            </div>   
+                        </div>
+                    </div>
+
+                    <div id="margin"></div>
+                </div>
+            </div>
+
+            <div class="back">
+                <div class="sectionArea longlong">
+                    <div id="margin"></div>
+                    <table>
+                        <tr>
+                            <td colspan="2" height="70px"><h1 class="menuName">레시피</h1></td>
+                        </tr>
+                        <tr class="ingredientTableWrap">                                                            
+                            <td height="500px">
+                                <img src="img/detail/샐러드재료.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="marginTop">
+                                    <table class="ingredientTable tableContents">
+                                        <tr height="40px">
+                                            <td class="left">
+                                                <h4 class="main">기본 재료</h4>
+                                            </td>  
+                                            <td class="right">
+                                                <p><font size="2px">3~4인분</font></p>
+                                            </td> 
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>양배추</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>1/2통(700g)</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>당근</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>1/2개</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>케일 또는 잎 채소(생략 가능)</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>5~6장</p>
+                                            </td>
+                                        </tr>
+                                        <tr height="40px">
+                                            <td class="left">
+                                                <h4 class="main">드레싱 재료</h4>
+                                            </td>  
+                                            <td class="right">
+                                                <p><font size="2px"><!--빈칸--></font></p>
+                                            </td>                                        
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>올리브 오일</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>3큰술</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>식초</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>2큰술</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>아가베 시럽(또는 올리고당)</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>2큰술</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>소금</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>약간</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>후춧가루</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>약간</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <p>디종 머스타드(생략 가능)</p>
+                                            </td>
+                                            <td class="right">
+                                                <p>1/2큰술</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>                                             
+                        </tr>
+                        <tr class="stepOne">
+                            <td height="500px">
+                                <img src="img/detail/sd_step1.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 1</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        깨끗이 씻은 양배추는 두꺼운 심지 부분을 자르고 채를 썰어주세요. 당근, 잎채소도 비슷한 길이로 채를 썰어 주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="stepTwo">
+                            <td height="500px">
+                                <img src="img/detail/sd_step2.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 2</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        볼에 드레싱 재료를 넣어 골고루 섞어 주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="stepThree">
+                            <td height="500px">
+                                <img src="img/detail/sd_step3.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 3</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        넓은 볼에 채를 썬 채소와 드레싱을 넣고 골고루 섞어 주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="stepFour">
+                            <td height="500px">
+                                <img src="img/detail/sd_step4.PNG" width="350px" height="350px">
+                            </td>
+                            <td>
+                                <div class="stepContents">
+                                    <h3>Step 4</h3>
+                                    <div class="horizantalLine"></div>
+                                    <p>
+                                        접시에 담아 맛있게 즐겨주세요.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="margin"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div id="footerArea">
+                <div class="textArea">
+                    <img src="./recipe_source/logo_txt.png" width="140px">
+                    <p class="font_italic font_right">최종본</p>
+                    <p>웹프로그래밍및실습(가)_8조</p>
+                    <p>조장 : 이세빈&nbsp;&nbsp;/&nbsp;&nbsp;조원 : 이호재, 박소현, 이수민</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
